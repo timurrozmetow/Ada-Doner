@@ -495,6 +495,113 @@ footer {
 #nav-icon2{
     display: none;
 }
+
+@media (max-width:319px) {
+    #nav-icon2{
+        display: block;
+    }
+    .ulMobile{
+        display: flex;
+    }
+    
+    .MobileKill{
+        display: none;
+    }
+    .BigBon{
+        display: block;
+    }
+    .open{
+        display: block;
+    }
+    .none{
+        display: none;
+    }
+    .back{
+        display: block;
+        margin: 0 auto;
+        padding: 5% 0;
+        /* display: flex; */
+        justify-content: center;
+    }
+    .back h1{
+        font-size: 35px;
+    }
+    .mini{
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-mini{
+        width: 60%;
+        margin-bottom: 5%;
+    }
+    .history-photo{
+        flex-direction: column;
+    }
+    .history{
+        padding: 4% 0  ;
+        width: 100%;
+    }
+    .pizza{
+        width: 100%;
+    }
+    .omur{
+        font-size: 25px;
+    }
+    .tagam{
+        flex-direction: column;
+    }
+    .nahar1{
+        flex-direction: row-reverse;
+    }
+    .nahar1 img{
+        padding: 0 0 5% ;
+    }
+    .kopSatayan{
+        flex-direction: column;
+    }
+    .kopSatayan .left, .kopSatayan .right{
+        width: 100%;
+        padding: 0 0 5%;
+    }
+    .nahar-center p{
+    font-size: 25px;
+    line-height: 1.5;
+    }
+    .nahar-center img{
+        padding: 3% 0;
+        width: 85%;
+    }
+    .zakaz{
+        font-size: 20px;
+    }
+    .yer{
+        flex-direction: column;
+    }
+    .yer p{
+        text-align: center;
+        padding: 4% 0;
+    }
+    .telephone a{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .habar p{
+        font-size: 15px;
+    }
+    .content p{
+        font-size: 34px;
+    }
+    .nahar, .nahar1{
+        justify-content: space-between !important;
+        padding: 0 5% 5%;
+    }
+    .nahar img{
+        padding: 0;
+    }
+    
+    
+}
+
 @media (max-width:393px) {
     #nav-icon2{
         display: block;
@@ -590,6 +697,13 @@ footer {
     .content p{
         font-size: 34px;
     }
+    .nahar, .nahar1{
+        justify-content: space-between !important;
+        padding: 0 5% 5%;
+    }
+    .nahar img{
+        padding: 0;
+    }
 }
 @media (max-width:425px) {
     .MobileKill{
@@ -681,4 +795,116 @@ footer {
     .content p{
         font-size: 34px;
     }
+    .nahar, .nahar1{
+        justify-content: space-between !important;
+        padding: 0 5% 5%;
+    }
+    .nahar img{
+        padding: 0;
+    }
+}
+
+@media (max-width:430px) {
+    #nav-icon2{
+        display: block;
+    }
+    .ulMobile{
+        display: flex;
+    }
+    
+    .MobileKill{
+        display: none;
+    }
+    .BigBon{
+        display: block;
+    }
+    .open{
+        display: block;
+    }
+    .none{
+        display: none;
+    }
+    .back{
+        display: block;
+        margin: 0 auto;
+        padding: 5% 0;
+        /* display: flex; */
+        justify-content: center;
+    }
+    .back h1{
+        font-size: 35px;
+    }
+    .mini{
+        flex-direction: column;
+        align-items: center;
+    }
+    .first-mini{
+        width: 60%;
+        margin-bottom: 5%;
+    }
+    .history-photo{
+        flex-direction: column;
+    }
+    .history{
+        padding: 4% 0  ;
+        width: 100%;
+    }
+    .pizza{
+        width: 100%;
+    }
+    .omur{
+        font-size: 25px;
+    }
+    .tagam{
+        flex-direction: column;
+    }
+    .nahar1{
+        flex-direction: row-reverse;
+    }
+    .nahar1 img{
+        padding: 0 0 5% ;
+    }
+    .kopSatayan{
+        flex-direction: column;
+    }
+    .kopSatayan .left, .kopSatayan .right{
+        width: 100%;
+        padding: 0 0 5%;
+    }
+    .nahar-center p{
+    font-size: 25px;
+    line-height: 1.5;
+    }
+    .nahar-center img{
+        padding: 3% 0;
+        width: 85%;
+    }
+    .zakaz{
+        font-size: 20px;
+    }
+    .yer{
+        flex-direction: column;
+    }
+    .yer p{
+        text-align: center;
+        padding: 4% 0;
+    }
+    .telephone a{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .habar p{
+        font-size: 15px;
+    }
+    .content p{
+        font-size: 34px;
+    }
+    .nahar, .nahar1{
+        justify-content: space-between !important;
+        padding: 0 5% 5%;
+    }
+    .nahar img{
+        padding: 0;
+    }
+    
 }
