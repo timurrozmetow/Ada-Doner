@@ -8,6 +8,9 @@
     font-weight: 1000;
     scroll-behavior: smooth;
 }
+.Otstup{
+    padding: 0 15%;
+}
 .ulMobile {
     display: flex;
     flex-direction: column;
