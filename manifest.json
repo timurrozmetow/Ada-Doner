@@ -1,0 +1,32 @@
+{
+  "short_name": "Ada Doner",
+  "name": "Ada Donere hos geldiniz!",
+  
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "description": "Ada Donere hos geldiniz!",
+  "screenshots": [
+    {
+      "src": "img/1.jpeg",
+      "type": "image/jpeg",
+      "sizes": "3024x1846",
+      "form_factor": "wide"
+    },
+    {
+      "src": "img/pizza.JPG",
+      "type": "image/JPG",
+      "sizes": "1024X1024",
+      "form_factor": "narrow"
+    },
+      {
+      "src": "img/ish.JPG",
+      "type": "image/JPG",
+      "sizes": "1024X1024",
+      "form_factor": "narrow"
+    }
+  ]
+}
